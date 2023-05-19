@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 500px;
+    margin-right: 200px;
+    background-image: url("https://wallup.net/wp-content/uploads/2019/09/991363-scenery-mountains-lake-nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_heading{
+    background-color: rgb(49, 154, 240);
+    border: thin;
+    border-radius: 4px;
+    padding: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.body{
+    background-color: #f2f2f2;
+    border: thin;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    width: 100%;
+}
+.container{
+    width: 50%;
+    height: 5%;
+    padding: 12px;
+    border: 1px solid rgb(165, 165, 221);
+    border-radius: 5px;
+    margin: 10px 5px;
+    background-color: rgb(215, 233, 240);
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+} 
+input[type="submit"]{
+    background-color: rgb(97, 133, 241);
+    color: seashell;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    color: #388087;
+}
