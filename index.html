@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="stylecontactform.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="get">
+        <div class="main_heading">
+            <h1 >Contact Form</h1>
+            <h4>Please fill all the text in the fields</h4>
+        </div >
+        <p>
+          Name : *
+          <input
+            type="text"
+            name="name"
+            placeholder="Jack sparrow"
+            id="name"
+            required
+          />
+        </p>
+        <p>
+          Email: *
+          <input
+            type="email"
+            name="email"
+            placeholder="xxxxxxxxxxxx@gmail.com"
+            id="email"
+            required
+        />
+        </p>
+        <p>
+          Phone: *
+          <input
+            type="number"
+            name="phone"
+            placeholder="XXXXXXXXXX"
+            id="phone"
+            required
+          />
+        </p>
+        <p>
+          Message: *
+          <textarea name="message" placeholder="Enter your message" id="message" cols="100" rows="8"></textarea>
+        </p>
+        <p>
+          Subject
+          <input
+            type="text"
+            name="subject"
+            placeholder="Job Enquiry"
+            id="subject"
+            required
+          />
+        </p>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
